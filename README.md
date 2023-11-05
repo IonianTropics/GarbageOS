@@ -21,13 +21,25 @@ A lot of operating system development guides stress the ***SUPER INTENSE*** and 
   - Memory
   - *Registers*
 
-## Descision Tree
+## Descisions (not strictly in order)
 
 - Target platform (START HERE)
 - Supported toolchain (OR HERE)
 - Initial toolchain
 - Portability and compatabiltiy
-
+- Use of BIOS
+- Bootstrapping
+- Interrupts
+- Memory
+- Processes and scheduling (mutlitasking?)
+- Device drivers
+- Program ABI/API (system calls)
+- File System
+- Programs
+- UI
+- Networking
+- Security
+- 
 
 ### Target platform
 
@@ -70,17 +82,20 @@ What toolchain are you writing your OS with?
 
 ### Portability and compatability
 
-### 
+todo!();
 
 ## Example
 
 Lets say we want to create a single user, single threaded OS, that can run on my x64 lenovo laptop.
 Additionally, the entire OS runs in real mode and has no concept of OS privledge.
 We want the OS to be based on Forth.
-We need to implement some functions to support creating Forth.
+Implement some functions to support creating a Forth (linked list, threaded code, input/output).
+Next we implement serial output for debugging.
+Then we implement a interrupt handler, for both software and hardware interrupts.
+If we haven't already we can create some rudimentary heap allocation for good meassure (VERY helpful, not necessary)
 Then we can implement an interpreter, that runs Forth as we input command by command. (This could be considered a resident monitor, a rudimentary OS)
-
-
+From here we could use our Forth to implement a text editor or any other programs we may like.
+This is probably the bare minimum to create something that is usable that can be called an OS.
 
 
 
