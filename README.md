@@ -23,9 +23,65 @@ A lot of operating system development guides stress the ***SUPER INTENSE*** and 
 
 ## Descision Tree
 
-- Target Platform (START HERE)
-- Supported Toolchain (OR HERE)
+- Target platform (START HERE)
+- Supported toolchain (OR HERE)
 - Initial toolchain
+- Portability and compatabiltiy
+
+
+### Target platform
+
+Do you imagine your operating system running on a SNES? Your laptop? Here's where you decide that.
+There's several different avenues to take here. If you want to explore different architectures, here's the place to do that.
+But if you know what system you want, all you need to do is find some manuals and start reading.
+
+#### CPUs
+
+- Motorolla 68000
+- MOS 65xx
+- x86
+- Power PC
+- Zilog Z80
+- RISC-V
+- ARM
+
+#### What can ya make an OS on?
+
+- Smart watch
+- Ya moms frigde
+- Game consoles
+- Phone
+- PC/Desktop
+
+### Supported toolchains
+
+What development toolchains does your OS support?
+
+A common goal of many homebrew enthusiasts is a "self hosting" operating system.
+You may also want to write some programs on your OS.
+That's why this is important.
+
+### Initial toolchain
+
+What toolchain are you writing your OS with?
+
   - This is a very important step, but is mostly important for implementation, less so for design/planning.
+  - This can match your supported tools
+
+### Portability and compatability
+
+### 
+
+## Example
+
+Lets say we want to create a single user, single threaded OS, that can run on my x64 lenovo laptop.
+Additionally, the entire OS runs in real mode and has no concept of OS privledge.
+We want the OS to be based on Forth.
+We need to implement some functions to support creating Forth.
+Then we can implement an interpreter, that runs Forth as we input command by command. (This could be considered a resident monitor, a rudimentary OS)
+
+
+
+
 
 
