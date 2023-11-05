@@ -73,6 +73,8 @@ A common goal of many homebrew enthusiasts is a "self hosting" operating system.
 You may also want to write some programs on your OS.
 That's why this is important.
 
+While C has been commonly used for hobby OS dev, in OS development history, a given language/toolchain was heavily associated with a given family of operating systems. Currently, UNIX and C are the survivours of a turbulent battle of languages and OS. But notable from back in the day are Forth and Lisp. They are both very easy to create and very powerful in their own way and well suited for OS dev.
+
 ### Initial toolchain
 
 What toolchain are you writing your OS with?
