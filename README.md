@@ -1,7 +1,11 @@
 # GarbageOS
 How to design an OS from first principles
 
-A lot of operating system development guides stress the ***SUPER INTENSE*** and *scarryyyy* difficulty of writing your own OS. But here we like to keep things fun and friendly. Want to write something you could *technically* call an OS in 100 lines of code and call it done? Sure! IDGAF.
+A lot of operating system development guides stress the ***SUPER INTENSE*** and *scarryyyy* difficulty of writing your own OS. But here we like to keep things fun and friendly. Want to write something you could *technically* call an OS in 100 lines of code and call it done? Sure! IDGAF. (Future note: OS dev is definitely scary. But don't be afraid to make something fun and small!)
+
+## LICENSE
+
+[MIT](https://mit-license.org/)
 
 ## Need to know
 
